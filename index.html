@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <div class="screen">
+                <div class="saved-number-screen">
+                    
+                </div>
+                <div class="current-number-screen">
+                    0
+                </div>
+            </div>
+
+            <div class="buttons">
+                <div class="top-row">
+                    <button class="clr-button" onclick="clearScreen()">CLEAR</button>
+                    <button class="del-button" onclick="deleteNum()">DELETE</button> 
+                </div>
+                <button onclick="enterNumber(7)">7</button>
+                <button onclick="enterNumber(8)">8</button>
+                <button onclick="enterNumber(9)">9</button>
+                <button onclick="enterOperand('/')">÷</button>
+                <button onclick="enterNumber(4)">4</button>
+                <button onclick="enterNumber(5)">5</button>
+                <button onclick="enterNumber(6)">6</button>
+                <button onclick="enterOperand('*')">X</button>
+                <button onclick="enterNumber(1)">1</button>
+                <button onclick="enterNumber(2)">2</button>
+                <button onclick="enterNumber(3)">3</button>
+                <button onclick="enterOperand('-')">-</button>
+                <button onclick="enterNumber('.')">.</button>
+                <button onclick="enterNumber(0)">0</button>
+                <button onclick="onClickOperate()">=</button>
+                <button onclick="enterOperand('+')">+</button>
+
+                
+
+               
+            </div>
+        </div>
+    
+        
+        
+        <script src='script.js'></script>
+    </body>
+    
+</html>
